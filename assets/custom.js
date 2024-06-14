@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
             if (xhr.readyState === XMLHttpRequest.DONE) {
                 if (xhr.status === 200) {
                     // Handle success, such as refreshing the cart page
-                    alert('Succesfully-Clear')
                     location.reload();
                 } else {
                     // Handle error
