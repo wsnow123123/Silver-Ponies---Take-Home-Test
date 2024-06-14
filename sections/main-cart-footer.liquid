@@ -89,6 +89,18 @@
                 >
                   {{ 'sections.cart.checkout' | t }}
                 </button>
+                <button
+                  type="button"
+                  id="remove"
+                  class="cart__remove-button button"
+                  name="remove"
+                  {% if cart == empty %}
+                    disabled
+                  {% endif %}
+                  form="cart"
+                >
+                  {{ block.settings.remove_button }}
+                </button>
               </div>
 
               {%- if additional_checkout_buttons -%}
@@ -146,6 +158,11 @@
     {
       "type": "buttons",
       "name": "t:sections.main-cart-footer.blocks.buttons.name",
+      "limit": 1
+    },
+    {
+      "type": "remove_button",
+      "name": "Remove",
       "limit": 1
     },
     {
