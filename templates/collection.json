@@ -11,8 +11,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "product_card_border_width": 8,
-        "product_card_border_color": "#762589",
+        "product_card_border_width": 36,
+        "product_card_border_color": "#892b25",
         "products_per_page": 20,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
