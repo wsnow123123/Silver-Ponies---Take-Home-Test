@@ -3,6 +3,8 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 
+<script src="{{ 'custom.js' | asset_url }}" defer></script>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -91,15 +93,15 @@
                 </button>
                 <button
                   type="button"
-                  id="remove"
-                  class="cart__remove-button button"
-                  name="remove"
+                  id="clear-cart-button"
+                  class="cart__checkout-button button"
+                  name="clear"
                   {% if cart == empty %}
                     disabled
                   {% endif %}
                   form="cart"
                 >
-                  Remove
+                  Clear
                 </button>
               </div>
 
