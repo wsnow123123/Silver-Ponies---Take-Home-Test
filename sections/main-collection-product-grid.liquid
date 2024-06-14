@@ -160,7 +160,7 @@
                   style=" border:{{ section.settings.product_card_border_width }}px solid {{ section.settings.product_card_border_color }}"
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
-                    style="--animation-order: {{ forloop.index }};"
+                    style="--animation-order: {{ forloop.index }};border:{{ section.settings.product_card_border_width }}px solid {{ section.settings.product_card_border_color }} "
                   {% endif %}
                 >
                   {% render 'card-product',
