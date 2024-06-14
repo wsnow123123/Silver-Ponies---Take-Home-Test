@@ -45,16 +45,16 @@
           "settings": {
           }
         },
-        "product_extra_info_ba4EhF": {
-          "type": "Product-extra-info",
-          "settings": {
-            "product-extra-info": "<h1>Product-Extra-Info<\/h1>"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "product_extra_info_CPPQLB": {
+          "type": "product-extra-info",
+          "settings": {
+            "product-extra-info": "<h1>Product<\/h1>"
           }
         }
       },
@@ -66,8 +66,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "product_extra_info_ba4EhF",
-        "share"
+        "share",
+        "product_extra_info_CPPQLB"
       ],
       "settings": {
         "enable_sticky_info": true,
