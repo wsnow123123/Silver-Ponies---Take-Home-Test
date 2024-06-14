@@ -14,7 +14,7 @@
         "product_card_border_width": 36,
         "product_card_border_color": "#892b25",
         "products_per_page": 20,
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
