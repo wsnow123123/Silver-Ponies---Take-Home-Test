@@ -157,6 +157,7 @@
                 {%- endif -%}
                 <li
                   class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  style=" border:{{ block.settings.product_card_border_width }} solid {{ block.settings.product_card_border_color }}"
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
                     style="--animation-order: {{ forloop.index }};"
@@ -195,6 +196,19 @@
   "name": "t:sections.main-collection-product-grid.name",
   "class": "section",
   "settings": [
+    {
+      "type": "range",
+      "id": "product_card_border_width",
+      "min": 8,
+      "max": 36,
+      "default": 16,
+      "label": "product_card_border"
+    },
+    {
+      "type": "color",
+      "id": "product_card_border_color",
+      "label": "product_card_border_color"
+    },
     {
       "type": "range",
       "id": "products_per_page",
