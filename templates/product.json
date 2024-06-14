@@ -45,6 +45,12 @@
           "settings": {
           }
         },
+        "product_extra_info_ba4EhF": {
+          "type": "Product-extra-info",
+          "settings": {
+            "product-extra-info": "<h1>Product-Extra-Info<\/h1>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -60,6 +66,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "product_extra_info_ba4EhF",
         "share"
       ],
       "settings": {
