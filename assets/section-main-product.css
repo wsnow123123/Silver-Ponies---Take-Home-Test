@@ -36,13 +36,13 @@
   }
 
   .product__description .product-extra-info {
-    max-height: 300px;
-    overflow-y: auto;
+    max-height: 300px !important;
+    overflow-y: auto !important;
   }
 
   .product__description .product-extra-info {
-    line-height: 1.5;
-    font-size: calc(14px + 0.5vw);
+    line-height: 1.5 !important;
+    font-size: calc(14px + 0.5vw) !important;
   }
 
   .product--right .product__info-wrapper {

@@ -192,7 +192,10 @@
                   </div>
                 {%- endif -%}
               {%- when 'product-extra-info' -%}
-                <div class="product__description rte product-extra-info quick-add-hidden" {{ block.shopify_attributes }}>
+                <div
+                  class="product__description rte product-extra-info quick-add-hidden"
+                  {{ block.shopify_attributes }}
+                >
                   {{ block.settings['product-extra-info'] }}
                 </div>
               {%- when 'sku' -%}
@@ -960,7 +963,7 @@
         {
           "type": "richtext",
           "id": "product-extra-info",
-          "default": "<h1>",
+          "default": "<p>",
           "label": "product-extra-info"
         }
       ]
